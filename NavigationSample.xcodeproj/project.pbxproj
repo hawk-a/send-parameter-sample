@@ -21,6 +21,7 @@
 		5ACBFD421939DF5400309615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACBFD241939DF5400309615 /* UIKit.framework */; };
 		5ACBFD4A1939DF5400309615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ACBFD481939DF5400309615 /* InfoPlist.strings */; };
 		5ACBFD4C1939DF5400309615 /* NavigationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBFD4B1939DF5400309615 /* NavigationSampleTests.m */; };
+		5ACBFD5A193A120F00309615 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBFD59193A120F00309615 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5ACBFD471939DF5400309615 /* NavigationSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationSampleTests-Info.plist"; sourceTree = "<group>"; };
 		5ACBFD491939DF5400309615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5ACBFD4B1939DF5400309615 /* NavigationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSampleTests.m; sourceTree = "<group>"; };
+		5ACBFD58193A120F00309615 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		5ACBFD59193A120F00309615 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				5ACBFD361939DF5400309615 /* ViewController.m */,
 				5ACBFD381939DF5400309615 /* Images.xcassets */,
 				5ACBFD271939DF5400309615 /* Supporting Files */,
+				5ACBFD58193A120F00309615 /* ResultViewController.h */,
+				5ACBFD59193A120F00309615 /* ResultViewController.m */,
 			);
 			path = NavigationSample;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				5ACBFD371939DF5400309615 /* ViewController.m in Sources */,
 				5ACBFD311939DF5400309615 /* AppDelegate.m in Sources */,
 				5ACBFD2D1939DF5400309615 /* main.m in Sources */,
+				5ACBFD5A193A120F00309615 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
